@@ -9,9 +9,22 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <button id="drawCardBtn" ="click">Draw Cards</button>
-  <button id="btnLow">Lower</button>
-  <button id="btnHi" >Higher</button>
-  
+  <div>
+    <h1 id="header"></h1>
+  </div>
+  <div id="btn">
+    <button id="btnLow" onclick="showImage()">Lower</button>
+    <button id="drawCard" onclick="hideImage()">Draw Cards</button>
+    <button id="btnHi" onclick="showImage()" >Higher</button>
+  </div>
+<div id="points">0</div>
+    
+  <div id="imgdiv">
+   <img id="image" >
+   <img id="image2">
+  </div>
+  <div >
+<h1 id="rattfel"></h1>
+  </div>
 </body>
 </html>
